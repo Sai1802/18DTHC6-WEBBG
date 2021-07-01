@@ -315,6 +315,8 @@
     <Content Include="Views\GioiThieu\Index.cshtml" />
     <Content Include="Views\TinTuc\Index.cshtml" />
     <Content Include="Views\Site\Details.cshtml" />
+    <Content Include="Views\Site\LoaiSp.cshtml" />
+    <Content Include="Views\Site\NhaCC.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

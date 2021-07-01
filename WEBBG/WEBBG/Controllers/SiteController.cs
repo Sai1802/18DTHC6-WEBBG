@@ -29,10 +29,36 @@ namespace WEBBG.Controllers
         {
             return View();
         }
-
-        public ActionResult Details()
+        public ActionResult LoaiSp()
         {
-            return View();
+            var loaisp = from lsp in data.LOAISPs select lsp;
+            return PartailView(loaisp);
+        }
+
+        public ActionResult SPTheoLoai(int id)
+        {
+            var sp = from s in data.SANPHAMs where s.MASP == id select s;
+            return View(sp);
+        }
+       
+        public ActionResult NhaCC()
+        {
+            var nhacc = from ncc in data.NCCs select ncc;
+            return PartailView(nhacc);
+        }
+        public ActionResult SPTheoNCC(int id)
+        {
+            var sp = from s in data.SANPHAMs where s.MASP == id select s;
+            return View(sp);
+        }
+
+
+        public ActionResult Details(int id)
+        {
+            var sp = from s in data.SANPHAMs
+                     where s.MASP == id
+                     select s;
+            return View(sp.Single());
         }
 
 
