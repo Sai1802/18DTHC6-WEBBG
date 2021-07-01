@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Public/css/LayoutSite.css" rel="stylesheet" />
+    <link href="~/Public/css/all.min.css" rel="stylesheet" />
+    @RenderSection("head", required: false)
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="~/Public/img/logo3.jpg" style="height:150px;" />
+                </div>
+                <div class="col-md-4 mt-md-5">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="col-md-5 mt-md-5">
+                <div class="user " >
+                   <ul>
+                    <li class="dropdown">
+                        <a class="dropbtn" style="text-decoration:none;font-size:20px;color:#0094ff;font-family:'Times New Roman', Times, serif;">
+                        Tài Khoản</a>
+                        <div class="dropdown-content">
+                            <a href="/dangnhap">Đăng nhập</a>
+                            <a href="/dangky">Đăng ký</a>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                    <div class="cart ">   
+                     <a href="/giohang" style="text-decoration:none; padding:40px;color:#0094ff;font-family:'Times New Roman', Times, serif;font-size:20px;" >
+                        Giỏ Hàng</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mainmenu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-none" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="site">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/gioithieu">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/tatcasanpham" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/tatcasanpham">Tất cả sản phẩm</a></li>
+                                    <li><a class="dropdown-item" href="#">Giày Nike</a></li>
+                                    <li><a class="dropdown-item" href="#">Giày Adidas</a></li>
+                                    <li><a class="dropdown-item" href="#">Giày Vans</a></li>
+                                    <li><a class="dropdown-item" href="#">Giày Puma</a></li>
+                                    <li><a class="dropdown-item" href="#">Giày Bitis</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lienhe">Liên hệ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/tintuc">Tin Tức</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="content">
+    @RenderBody()
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>DANH MỤC</h2>
+                    <ul>
+                        <li>Giày Nike</li>
+                        <li>Giày Adidas</li>
+                        <li>Giày Vans</li>
+                        <li>Giày Puma</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>HỖ TRỢ</h2>
+                    <ul>
+                        <li>Giày Nike</li>
+                        <li>Giày Adidas</li>
+                        <li>Giày Vans</li>
+                        <li>Giày Puma</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>HƯỚNG DẪN</h2>
+                    <ul>
+                        <li>Giày Nike</li>
+                        <li>Giày Adidas</li>
+                        <li>Giày Vans</li>
+                        <li>Giày Puma</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>CHÍNH SÁCH</h2>
+                    <ul>
+                        <li>Giày Nike</li>
+                        <li>Giày Adidas</li>
+                        <li>Giày Vans</li>
+                        <li>Giày Puma</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="copyright">
+        <p>THIẾT KẾ BỞI:TEAM ABC</p>
+    </section>
+
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+</body>
+</html>

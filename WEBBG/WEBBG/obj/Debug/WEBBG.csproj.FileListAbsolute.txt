@@ -1,0 +1,212 @@
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\WEBBG.dll.config
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\WEBBG.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\WEBBG.pdb
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csc.exe
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csc.exe.config
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csc.rsp
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csi.exe
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csi.exe.config
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\csi.rsp
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Buffers.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Memory.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\vbc.exe
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\vbc.exe.config
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\vbc.rsp
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Helpers.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Mvc.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Razor.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Razor.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Helpers.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\bin\System.Web.Mvc.xml
+C:\Users\giang\source\repos\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CoreCompileInputs.cache
+C:\Users\giang\source\repos\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CopyComplete
+C:\Users\giang\source\repos\WEBBG\WEBBG\obj\Debug\WEBBG.dll
+C:\Users\giang\source\repos\WEBBG\WEBBG\obj\Debug\WEBBG.pdb
+C:\Users\giang\source\repos\WEBBG\WEBBG\obj\Debug\WEBBG.csprojAssemblyReference.cache
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\WEBBG.dll.config
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\WEBBG.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\WEBBG.pdb
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csc.exe
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csc.exe.config
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csc.rsp
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csi.exe
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csi.exe.config
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\csi.rsp
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Buffers.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Collections.Immutable.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Memory.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Numerics.Vectors.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Reflection.Metadata.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\vbc.exe
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\vbc.exe.config
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\vbc.rsp
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe.config
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\Microsoft.Web.Infrastructure.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Helpers.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Mvc.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Razor.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Razor.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Helpers.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\bin\System.Web.Mvc.xml
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\obj\Debug\WEBBG.csprojAssemblyReference.cache
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CoreCompileInputs.cache
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CopyComplete
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\obj\Debug\WEBBG.dll
+C:\18DTHC6-1811062730-ĐỖ ĐOÀN TRÚC GIANG\WEBBG\WEBBG\obj\Debug\WEBBG.pdb
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.dll.config
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.pdb
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.exe
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.exe.config
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.rsp
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.exe
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.exe.config
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.rsp
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Buffers.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Collections.Immutable.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Memory.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Numerics.Vectors.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Reflection.Metadata.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.exe
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.exe.config
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.rsp
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe.config
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.Web.Infrastructure.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Helpers.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Mvc.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Razor.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Razor.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Helpers.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Mvc.xml
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csprojAssemblyReference.cache
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CoreCompileInputs.cache
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CopyComplete
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.dll
+C:\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.pdb
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.dll.config
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\WEBBG.pdb
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Buffers.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Memory.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Webpages.Razor.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.csproj.CopyComplete
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.dll
+C:\Users\Admin\Desktop\18DTHC6-WEBBG\WEBBG\WEBBG\obj\Debug\WEBBG.pdb

@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<div class="container mt-3">
+    <form name="frmsanphamchitiet" id="frmsanphamchitiet" method="post">
+        <input type="hidden" name="sp_ma" id="sp_ma" value="5">
+        <input type="hidden" name="sp_ten" id="sp_ten" value="Giày">
+        <input type="hidden" name="sp_gia" id="sp_gia" value="2.500.000">
+        <input type="hidden" name="hinhdaidien" id="hinhdaidien" value="sp11.jpg">
+
+        <div class="wrapper row">
+            <div class="preview col-md-6">
+                <div class="preview-pic tab-content">
+                    <div class="tab-pane" id="pic-1">
+                        <img src="~/Public/img/sp11.jpg">
+                    </div>
+
+                </div>
+                <ul class="preview-thumbnail nav nav-tabs">
+                    <li class="active">
+                        <a data-target="#pic-1" data-toggle="tab" class="">
+                            <img src="~/Public/img/sp11.jpg" class="img-fluid" style="height:400px; width:800px" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="details col-md-6">
+                <h3 class="product-title">Giày NIKE</h3>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <span class="review-no">999 reviews</span>
+                </div>
+                <p class="product-description">Chất liệu thoải mái tạo cảm giác năng động</p>
+                <h4 class="price">Giá hiện tại: <span>2.500.000VNĐ</span></h4>
+                <p class="vote">
+                    <strong>100%</strong> hàng <strong>Chất lượng</strong>, đảm bảo
+                    <strong>
+                        Uy
+                        tín
+                    </strong>!
+                </p>
+                <h5 class="sizes">
+                    Sizes:
+                    <span class="size" data-toggle="tooltip" title="cỡ Nhỏ">35</span>
+                    <span class="size" data-toggle="tooltip" title="cỡ Trung bình">36</span>
+                    <span class="size" data-toggle="tooltip" title="cỡ Lớn">37</span>
+                    <span class="size" data-toggle="tooltip" title="cỡ Đại">38</span>
+                </h5>
+                <h5 class="color">Color
+
+                <a href="#" class="btn btn-light"></a>
+                <a href="#" class="btn btn-danger"></a>
+                <a href="#" class="btn btn-info"></a>
+                </h5>
+                <div class="form-group">
+                    <label for="soluong">Số lượng đặt mua:</label>
+                    <input type="number" class="form-control" id="soluong" name="soluong" style="width:200px;">
+                </div>
+                <div class="action mt-2">
+                    <a href="#" class="list-group-item" style="width:200px; background-color:aqua;">  Thêm vào giỏ hàng</a>
+                    <a class="like btn btn-default" href="#"><span class="fa fa-heart"></span></a>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<div class="container mt-3">
+    <h3>Thông tin chi tiết về Sản phẩm</h3>
+    <div class="row">
+        <div class="col">
+            Được làm bằng chất liệu thoải mái, nên tạo cảm giác năng động
+            tiện lợi cho việc đi chơi với bạn bè.
+        </div>
+    </div>
+</div>
+            
+
+

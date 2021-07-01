@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Liên Hệ";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Thông tin liên hệ </h3>
+            <p>Tên cửa hàng: Cửa hàng ABC</p>
+            <p>Địa chỉ: Xa lộ Hà Nội,TP.Thủ Đức</p>
+            <p>SĐT;081457677</p>
+            <p>Email:abc@gmail.com</p>
+            <p>Chi nhánh 1: Bình thạnh, TP.HCM</p>
+            <p>Chi nhánh 2: Hà Nội</p>
+
+        </div>
+        <div class="col-md-6">
+            <h3>Form liên hệ</h3>
+            <div class="form-group">
+                <label><strong>Họ tên(<span class="text-danger">*</span>)</strong></label>
+                <input name="fullname" class="form-control" placeholder="Ví dụ:Nguyễn Văn A" />
+            </div>
+            <div class="form-group">
+                <label><strong>Điện thoại(<span class="text-danger">*</span>)</strong></label>
+                <input name="fullname" class="form-control" placeholder="Số điện thoại" />
+            </div>
+            <div class="form-group">
+                <label><strong>Eamil(<span class="text-danger">*</span>)</strong></label>
+                <input name="fullname" class="form-control" placeholder="Ví dụ:abc@gmail.com" />
+            </div>
+            <div class="form-group">
+                <label><strong>Nội dung(<span class="text-danger">*</span>)</strong></label>
+                <textarea class="form-control" rows="3" placeholder="Nội dung liên hê"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-info">Gửi liên hệ</button>
+            </div>
+            <div class="form-group">
+                <strong>(<span class="text-danger">*</span>)</strong> Bắt buộc phải nhập
+            </div>
+        </div>
+
+    </div>
+    <div class="row mt-3">
+        <div class=" col-md-12 ">
+            <h3>BẢN ĐỒ</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7837.036092823089!2d106.79270267445803!3d10.848146856222352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527c3debb5aad%3A0x5fb58956eb4194d0!2zxJDhuqFpIEjhu41jIEh1dGVjaCBLaHUgRQ!5e0!3m2!1svi!2s!4v1624124844160!5m2!1svi!2s" width="1300" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </div>
+</div>
