@@ -1,13 +1,18 @@
-﻿@model IEnumerable<WEBBG.Models.SANPHAM>
-<div class="card bg-info" style="width: 100%;">
+﻿@model IEnumerable<WEBBG.Models.NCC>
+<div class="card bg-info mt-3" style="width: 100kho%;">
     <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-            DANH MỤC NHA CUNG CAP SẢN PHẨM
+            DANH MỤC NHÀ CUNG CẤP SẢN PHẨM
         </a>
 
         @foreach (var item in Model)
         {
-            <a href="@Url.Action("SPTheoNCC","Site",new { id= item.MANCC}) " class="list-group-item">@item.TENNCC</a>
+            <a href="@Url.Action("SPTheoNCC","Site",new { id= item.MANCC}) " class="list-group-item">
+        
+                 @item.DIACHI
+
+
+            </a>
         }
     </div>
 </div>

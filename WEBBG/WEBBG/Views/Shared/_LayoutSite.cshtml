@@ -1,54 +1,67 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <title>@Page.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Public/css/LayoutSite.css" rel="stylesheet" />
     <link href="~/Public/css/all.min.css" rel="stylesheet" />
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="1BSHhoYn"></script>
+
     @RenderSection("head", required: false)
 </head>
 <body>
     <section class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="~/Public/img/logo3.jpg" style="height:150px;" />
-                </div>
-                <div class="col-md-4 mt-md-5">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Tìm kiếm" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2">
-                            <i class="fas fa-search"></i>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Public/img/logo3.jpg" style="height:100px;" />
+            </div>
+            <div class="col-md-4 mt-md-3 text-center">
+                @using (Html.BeginForm("KQTimKiem", "TimKiem"))
+                {
+                    <div class="input-group mb-3 ">
+                        <input type="text" class="form-control" placeholder="Nhập từ khóa"
+                               name="search" style="border-radius:10px; height:40px; ">
+                        <span class="input-group-text" id="basic-addon2" style="border-radius:10px; height:40px;">
+                            <input type="submit" name="submit" value="Tìm kiếm" class="form-control" />
+
                         </span>
                     </div>
+                }
+            </div>
 
-                </div>
-                <div class="col-md-5 mt-md-5">
-                <div class="user " >
-                   <ul>
-                    <li class="dropdown">
-                        <a class="dropbtn" style="text-decoration:none;font-size:20px;color:#0094ff;font-family:'Times New Roman', Times, serif;">
-                        Tài Khoản</a>
-                        <div class="dropdown-content">
-                            <a href="/dangnhap">Đăng nhập</a>
-                            <a href="/dangky">Đăng ký</a>
-                        </div>
-                    </li>
+            <div class="col-md-5 mt-md-3" style="padding-left:130px;">
+                <div class="user ">
+                    <ul>
+                        <li class="dropdown">
+                            <i class="fas fa-user" style="font-size:20px"></i>  <a class="dropbtn"
+                                                                                   style="color:black;font-weight:bold;
+                            text-decoration:none; padding-top:20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                TÀI KHOẢN
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="/dangnhap">Đăng nhập</a>
+                                <a href="/dangky">Đăng ký</a>
+                            </div>
+
+
+                        </li>
                     </ul>
                 </div>
-                    <div class="cart ">   
-                     <a href="/giohang" style="text-decoration:none; padding:40px;color:#0094ff;font-family:'Times New Roman', Times, serif;font-size:20px;" >
-                        Giỏ Hàng</a>
-                    </div>
-                </div>
 
+                <div class="cart">
+                    @Html.Action("GiohangPartial", "Giohang")
+                </div>
             </div>
         </div>
+
     </section>
     <section class="mainmenu">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
+                <div class="container-fluid container">
                     <a class="navbar-brand d-none" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -56,31 +69,30 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="site">Trang chủ</a>
+                                <a class="nav-link active" aria-current="page" href="~/site">TRANG CHỦ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/gioithieu">Giới thiệu</a>
+                                <a class="nav-link" href="/gioithieu">GIỚI THIỆU</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="/tatcasanpham" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Sản phẩm
+                                    SẢN PHẨM
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="/tatcasanpham">Tất cả sản phẩm</a></li>
-                                    <li><a class="dropdown-item" href="#">Giày Nike</a></li>
-                                    <li><a class="dropdown-item" href="#">Giày Adidas</a></li>
-                                    <li><a class="dropdown-item" href="#">Giày Vans</a></li>
-                                    <li><a class="dropdown-item" href="#">Giày Puma</a></li>
-                                    <li><a class="dropdown-item" href="#">Giày Bitis</a></li>
-
+                                    <li><a class="dropdown-item" href="/Site/SPTheoLoai/1">Giày Nike</a></li>
+                                    <li><a class="dropdown-item" href="/Site/SPTheoLoai/4">Giày Adidas</a></li>
+                                    <li><a class="dropdown-item" href="/Site/SPTheoLoai/2">Giày Vans</a></li>
+                                    <li><a class="dropdown-item" href="/Site/SPTheoLoai/3">Giày Reebok</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/lienhe">Liên hệ</a>
+                                <a class="nav-link" href="/lienhe">LIÊN HỆ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="/tintuc">Tin Tức</a>
+                                <a class="nav-link " href="/tintuc">TIN TỨC</a>
                             </li>
+
                         </ul>
                     </div>
                 </div>
@@ -88,45 +100,56 @@
         </div>
     </section>
     <section class="content">
-    @RenderBody()
+        @RenderBody()
     </section>
+    <script type="text/javascript">
+        function hide_float_right() {
+            var content = document.getElementById('float_content_right');
+            var hide = document.getElementById('hide_float_right');
+            if (content.style.display == "none") { content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()">Tắt quảng cáo [X]</a>'; }
+            else {
+                content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Xem quảng cáo...</a>';
+            }
+        }
+    </script>
+    
     <section class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <h2>DANH MỤC</h2>
                     <ul>
-                        <li>Giày Nike</li>
-                        <li>Giày Adidas</li>
-                        <li>Giày Vans</li>
-                        <li>Giày Puma</li>
+                        <li><a href=" #">Giày Nike</a></li>
+                        <li><a href="#">Giày Adidas</a></li>
+                        <li><a href="#">Giày Vans</a></li>
+                        <li><a href="#">Giày Puma</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h2>HỖ TRỢ</h2>
                     <ul>
-                        <li>Giày Nike</li>
-                        <li>Giày Adidas</li>
-                        <li>Giày Vans</li>
-                        <li>Giày Puma</li>
+                        <li><a href=" #">Liên Hệ: 06563434</a></li>
+                        <li><a href="#">Email: team12@gmail.com</a></li>
+                        <li><a href="#">Địa chỉ: Quận 9,TPHCM</a></li>
+                        <li><a href="#">Giày</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h2>HƯỚNG DẪN</h2>
                     <ul>
-                        <li>Giày Nike</li>
-                        <li>Giày Adidas</li>
-                        <li>Giày Vans</li>
-                        <li>Giày Puma</li>
+                        <li><a href=" #">Giày Nike</a></li>
+                        <li><a href="#">Giày Adidas</a></li>
+                        <li><a href="#">Giày Vans</a></li>
+                        <li><a href="#">Giày Puma</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h2>CHÍNH SÁCH</h2>
                     <ul>
-                        <li>Giày Nike</li>
-                        <li>Giày Adidas</li>
-                        <li>Giày Vans</li>
-                        <li>Giày Puma</li>
+                        <li><a href=" #">Đổi Trả</a></li>
+                        <li><a href="#">Giao Hàng Tận Nới</a></li>
+                        <li><a href="#">Hỗ Trợ 24/7</a></li>
+                        <li><a href="#">Giày</a></li>
                     </ul>
                 </div>
 
@@ -134,7 +157,7 @@
         </div>
     </section>
     <section class="copyright">
-        <p>THIẾT KẾ BỞI:TEAM ABC</p>
+        <p>THIẾT KẾ BỞI: TEAM 12</p>
     </section>
 
     <script src="~/Scripts/popper.min.js"></script>
@@ -142,3 +165,23 @@
     <script src="~/Scripts/jquery-3.6.0.min.js"></script>
 </body>
 </html>
+<style>
+    .footer li a{
+        text-decoration:none;
+    }
+    .footer li a:hover{
+        color:burlywood;
+    }
+    .container-fluid li {
+        font:40px;
+        font-weight:bold;
+        font-family:Arial;
+        padding-left:60px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover{
+        color:#1043aa;
+    }
+    
+    
+</style>

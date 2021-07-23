@@ -4,25 +4,42 @@
     Layout = "~/Views/Shared/_LayoutSite.cshtml";
 }
 
-<div class="container">
-    <h1 class="text-center">ĐĂNG NHẬP</h1>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="form-group">
-                <label><strong>Tên Đăng Nhập(<span class="text-danger">*</span>)</strong></label>
-                <input name="fullname" class="form-control" placeholder="Tên đăng nhập hoặc Email" type="text" />
-            </div>
-            <div class="form-group">
-                <label><strong>Mật khẩu(<span class="text-danger">*</span>)</strong></label>
-                <input name="fullname" class="form-control" placeholder="Mật khẩu" type="password" />
-            </div>
-            <div class="form-group">
-                <button class="btn btn-info">ĐĂNG NHẬP</button>
-            </div>
-            <div class="form-group">
-                <strong>(<span class="text-danger">*</span>)</strong> Bắt buộc phải nhập
-            </div>
-        </div>
+<h4 style="color:red; text-align:center">@ViewBag.ThongBao</h4>
+<div class="dangnhap container" >
+<table align="center">
+    <h3 class="text-center" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+    ĐĂNG NHẬP TÀI KHOẢN</h3>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <tr style="height:40px">
+                <td>Tên đăng nhập</td>
+                <td>@Html.TextBox("TenDN")
+                @ViewData["Loi1"]
+                </td>
+            </tr>
 
+            <tr style="height:40px">
+                <td>Mật khẩu</td>
+                <td>@Html.Password("MatKhau")
+                @ViewData["Loi2"]
+                </td>
+            </tr>
+            
+            <tr style="height:40px;">
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng nhập" />
+                </td>
+            </tr>
+        }
+</table>
     </div>
-</div>
+<style>
+    .dangnhap {
+        border:5px solid #ff6a00;
+        width:500px;
+        border-radius:10px;
+        
+    }
+</style>

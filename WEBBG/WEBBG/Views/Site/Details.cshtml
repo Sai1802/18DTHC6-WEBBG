@@ -14,20 +14,20 @@
             <div class="preview col-md-6">
                 <div class="preview-pic tab-content">
                     <div class="tab-pane" id="pic-1">
-                        <img src="~/Public/img/sp11.jpg">
+                        <img src="~/Public/img/@Model.ANHBIA">
                     </div>
 
                 </div>
                 <ul class="preview-thumbnail nav nav-tabs">
                     <li class="active">
                         <a data-target="#pic-1" data-toggle="tab" class="">
-                            <img src="~/Public/img/sp11.jpg" class="img-fluid" style="height:400px; width:800px" />
+                            <img src="~/Public/img/@Model.ANHBIA" class="img-fluid" style="height:400px; width:800px" />
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="details col-md-6">
-                <h3 class="product-title">Giày NIKE</h3>
+                <h3 class="product-title">@Model.TENSP</h3>
                 <div class="rating">
                     <div class="stars">
                         <span class="fa fa-star checked"></span>
@@ -39,7 +39,7 @@
                     <span class="review-no">999 reviews</span>
                 </div>
                 <p class="product-description">Chất liệu thoải mái tạo cảm giác năng động</p>
-                <h4 class="price">Giá hiện tại: <span>2.500.000VNĐ</span></h4>
+                <h4 class="price">Giá hiện tại: <span>Giá:@Model.GIABAN</span></h4>
                 <p class="vote">
                     <strong>100%</strong> hàng <strong>Chất lượng</strong>, đảm bảo
                     <strong>
@@ -47,25 +47,13 @@
                         tín
                     </strong>!
                 </p>
-                <h5 class="sizes">
-                    Sizes:
-                    <span class="size" data-toggle="tooltip" title="cỡ Nhỏ">35</span>
-                    <span class="size" data-toggle="tooltip" title="cỡ Trung bình">36</span>
-                    <span class="size" data-toggle="tooltip" title="cỡ Lớn">37</span>
-                    <span class="size" data-toggle="tooltip" title="cỡ Đại">38</span>
-                </h5>
-                <h5 class="color">Color
-
-                <a href="#" class="btn btn-light"></a>
-                <a href="#" class="btn btn-danger"></a>
-                <a href="#" class="btn btn-info"></a>
-                </h5>
+               
                 <div class="form-group">
                     <label for="soluong">Số lượng đặt mua:</label>
-                    <input type="number" class="form-control" id="soluong" name="soluong" style="width:200px;">
+                    <input type="number" class="form-control" id="soluong" name="soluong" value="0" min="0" style="width:200px;">
                 </div>
-                <div class="action mt-2">
-                    <a href="#" class="list-group-item" style="width:200px; background-color:aqua;">  Thêm vào giỏ hàng</a>
+                <div class="datmua mt-2">
+                    <a href="@Url.Action("ThemGioHang","GioHang", new { @iMASP =@Model.MASP, @strURL = Request.Url.ToString()})" class="list-group-item" style="width:200px; background-color:aqua;">  Thêm vào giỏ hàng</a>
                     <a class="like btn btn-default" href="#"><span class="fa fa-heart"></span></a>
                 </div>
             </div>
@@ -85,3 +73,4 @@
             
 
 
+<div class="fb-comments" data-href="https://localhost:44323/Site/Index" data-width="700" data-numposts="5"></div>

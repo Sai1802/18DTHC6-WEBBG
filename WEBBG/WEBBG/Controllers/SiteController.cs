@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
 using WEBBG.Models;
-
+using PagedList;
+using PagedList.Mvc;
 namespace WEBBG.Controllers
 {
     public class SiteController : Controller
@@ -17,50 +17,58 @@ namespace WEBBG.Controllers
             return db.SANPHAMs.OrderByDescending(a => a.NGAYSANXUAT).Take(count).ToList();
             
         }
+       
         // GET: Site
         public ActionResult Index()
         {
             var spmoi = Laysanpham(4);
             return View(spmoi);
-           
-        }
 
-        public ActionResult Product()
+            
+        }
+       
+        public ActionResult Product(int ? page)
         {
-            return View();
+            int pageSize = 6;
+            int pageNum = (page ?? 1);
+
+            var tcsanpham = db.SANPHAMs.ToList();
+            return View(tcsanpham.ToPagedList(pageNum,pageSize));
+
         }
         public ActionResult LoaiSp()
         {
-            var loaisp = from lsp in data.LOAISPs select lsp;
-            return PartailView(loaisp);
+            var loaisp = from lsp in db.LOAISPs select lsp;
+            return PartialView(loaisp);
+        }
+
+        
+        public ActionResult NhaCC()
+        {
+            var nhacc = from ncc in db.NCCs select ncc;
+            return PartialView(nhacc);
         }
 
         public ActionResult SPTheoLoai(int id)
         {
-            var sp = from s in data.SANPHAMs where s.MASP == id select s;
+            var sp = from s in db.SANPHAMs where s.MALOAI == id select s;
             return View(sp);
         }
-       
-        public ActionResult NhaCC()
-        {
-            var nhacc = from ncc in data.NCCs select ncc;
-            return PartailView(nhacc);
-        }
+
         public ActionResult SPTheoNCC(int id)
         {
-            var sp = from s in data.SANPHAMs where s.MASP == id select s;
+            var sp = from s in db.SANPHAMs where s.MANCC == id select s;
             return View(sp);
         }
 
 
         public ActionResult Details(int id)
         {
-            var sp = from s in data.SANPHAMs
+            var sp = from s in db.SANPHAMs
                      where s.MASP == id
                      select s;
             return View(sp.Single());
         }
-
-
+       
     }
 }

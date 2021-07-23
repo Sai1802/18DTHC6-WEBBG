@@ -43,11 +43,11 @@ namespace WEBBG
            url: "dangnhap",
            defaults: new { controller = "KhachHang", action = "Login", id = UrlParameter.Optional }
            );
-          routes.MapRoute(
-         name: "DangKy",
-         url: "dangky",
-         defaults: new { controller = "KhachHang", action = "Register", id = UrlParameter.Optional }
-         );
+            routes.MapRoute(
+           name: "DangKy",
+           url: "dangky",
+           defaults: new { controller = "KhachHang", action = "Register", id = UrlParameter.Optional }
+           );
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

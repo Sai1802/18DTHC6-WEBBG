@@ -1,5 +1,5 @@
 ﻿.header{
-    height:150px;
+    height:100px;
 }
 .user ul{
     list-style:none;
@@ -27,7 +27,7 @@ li .dropdown{
     text-decoration:none;
     text-align:left;
 }
-.dropdown-content a:hover{background-color:aliceblue;}
+.dropdown-content a:hover{background-color:burlywood;}
 .dropdown:hover .dropdown-content{display:block;}
 
 .mainmenu {
@@ -36,6 +36,12 @@ li .dropdown{
 .slide{
     height:400px;
     width:auto;
+}
+.banner img:hover{
+    transform:scale(0.9);
+}
+.card img:hover {
+    transform: scale(0.9);
 }
 .row h3{
     font-family:'Times New Roman';
@@ -68,3 +74,5 @@ li .dropdown{
     height:50px;
     padding-top:10px;
 }
+
+ 
