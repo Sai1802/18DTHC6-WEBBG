@@ -82,28 +82,28 @@ namespace WEBBG.Controllers
             }
         }
 
-        [HttpGet]
-        public ActionResult Edit(int id)
-        {
-            if (Session["Taikhoanadmin"] == null)
-                return RedirectToAction("Login", "Admin");
-            else
-            {
-                var lienhe = from lh in db.LIENHEs where lh.MALIENHE== id select lh;
-                return View(lienhe.SingleOrDefault());
-            }
-        }
+        //[HttpGet]
+        //public ActionResult Edit(int id)
+        //{
+        //    if (Session["Taikhoanadmin"] == null)
+        //        return RedirectToAction("Login", "Admin");
+        //    else
+        //    {
+        //        var lienhe = from lh in db.LIENHEs where lh.MALIENHE == id select lh;
+        //        return View(lienhe.SingleOrDefault());
+        //    }
+        //}
 
-        [HttpPost, ActionName("Edit")]
+        //[HttpPost, ActionName("Edit")]
 
-        public ActionResult Capnhat(int id)
-        {
-            LIENHE lienhe = db.LIENHEs.Where(n => n.MALIENHE == id).SingleOrDefault();
-            UpdateModel(lienhe);
-            db.SubmitChanges();
-            return RedirectToAction("Index", "QLLH");
+        //public ActionResult Capnhat(int id)
+        //{
+        //    LIENHE lienhe = db.LIENHEs.Where(n => n.MALIENHE == id).SingleOrDefault();
+        //    UpdateModel(lienhe);
+        //    db.SubmitChanges();
+        //    return RedirectToAction("Index", "QLLH");
 
-        }
+        //}
 
     }
 }

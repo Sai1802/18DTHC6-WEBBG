@@ -30,7 +30,7 @@
         <div class="col-md-6 col col-sm-6 col-lg-6">
             <div class="banner" style="height:400px;">
               <a href="/Site/SPTheoLoai/1">
-                <img src="~/Public/img/b7.jpg" class="img-fluid"/> 
+                <img src="~/Public/img/gt2.jpg" class="img-fluid" style="height:350px;width:450px;"/> 
                 </a>
             </div>
         </div>
@@ -69,9 +69,9 @@
                     <img src="~/Public/img/@SANPHAM.ANHBIA" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a href="@Url.Action("Details","Site", new { id =SANPHAM.MASP})" style="text-decoration:none">
-                            <h5 class="card-title">@SANPHAM.TENSP</h5>
+                            <h5 class="card-title" style="font-size:17px;">@SANPHAM.TENSP</h5>
                         </a>
-                        <h5>Giá Bán: @SANPHAM.GIABAN</h5>
+                        <h5 style="font-size:15px;">Giá Bán: @SANPHAM.GIABAN</h5>
                         <a href="@Url.Action("ThemGioHang","GioHang", new { @iMASP =SANPHAM.MASP, @strURL = Request.Url.ToString()})" class="btn btn-primary">Đặt mua</a>
                     </div>
                 </div>
@@ -99,14 +99,14 @@
 
         @foreach (var SANPHAM in Model)
         {
-            <div class=" col-md-3">
+            <div class=" col-md-3 mt-3">
                 <div class="card" style="width: 100%;">
                     <img src="~/Public/img/@SANPHAM.ANHBIA" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a href="@Url.Action("Details","Site", new { id =SANPHAM.MASP})" style="text-decoration:none">
-                            <h5 class="card-title">@SANPHAM.TENSP</h5>
+                            <h5 class="card-title" style="font-size:17px;">@SANPHAM.TENSP</h5>
                         </a>
-                        <h5>Giá Bán: @SANPHAM.GIABAN</h5>
+                        <h5 style="font-size:15px;">Giá Bán: @SANPHAM.GIABAN</h5>
                         <a href="@Url.Action("ThemGioHang","GioHang", new { @iMASP =SANPHAM.MASP, @strURL = Request.Url.ToString()})" class="btn btn-primary">Đặt mua</a>
                     </div>
                 </div>

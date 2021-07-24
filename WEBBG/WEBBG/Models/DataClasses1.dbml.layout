@@ -44,7 +44,7 @@
         <elementListCompartment Id="bf2d698b-00fc-431f-a5a6-9a89a53dfbe3" absoluteBounds="6.765, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(5.5 : 9.76849609375); (6.28125 : 9.76849609375); (6.28125 : 3.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.5 : 9.76849609375); (6.46875 : 9.76849609375); (6.46875 : 3.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DataClasses1DataContext/DONDATHANG/DONDATHANG_CHITIETHOADON" />
       <nodes>
         <classShapeMoniker Id="bdf63d12-bf33-4840-b6fa-7865d1b4d3a2" />
@@ -85,10 +85,10 @@
         <elementListCompartment Id="35f820f8-071e-4099-a31d-5fbe0beaa9ee" absoluteBounds="3.015, 4.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="a84ea486-7dc1-488c-9fb3-986fc855efc1" absoluteBounds="6.375, 4.75, 2, 1.3862939453125005">
+    <classShape Id="5b7526c0-f74b-4887-8036-fb6596c97867" absoluteBounds="6.75, 5, 2, 1.3862939453125005">
       <DataClassMoniker Name="/DataClasses1DataContext/ADMIN" />
       <nestedChildShapes>
-        <elementListCompartment Id="40937e8c-c9d3-489f-acae-6c9eba12c1e9" absoluteBounds="6.39, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="6a92db27-bcea-43e0-8fd2-90d3e18f49d9" absoluteBounds="6.765, 5.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using WEBBG.Models;
 
 namespace WEBBG.Controllers
@@ -23,7 +24,7 @@ namespace WEBBG.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Register( FormCollection collection, KHACHHANG kh)
+        public ActionResult Register(FormCollection collection, KHACHHANG kh)
         {
             var hoten = collection["HotenKH"];
             var tendn = collection["TenDN"];
@@ -32,27 +33,27 @@ namespace WEBBG.Controllers
             var diachi = collection["Diachi"];
             var email = collection["Email"];
             var dienthoai = collection["dienthoai"];
-            if(String.IsNullOrEmpty(hoten))
+            if (String.IsNullOrEmpty(hoten))
             {
                 ViewData["Loi1"] = "Họ tên không được để trống";
             }
-           else if (String.IsNullOrEmpty(tendn))
+            else if (String.IsNullOrEmpty(tendn))
             {
                 ViewData["Loi2"] = "Họ tên không được để trống";
             }
 
-           else  if (String.IsNullOrEmpty(matkhau))
+            else if (String.IsNullOrEmpty(matkhau))
             {
                 ViewData["Loi3"] = "Nhập mật khẩu";
             }
-           else if (String.IsNullOrEmpty(nhaplaimatkhau))
+            else if (String.IsNullOrEmpty(nhaplaimatkhau))
             {
                 ViewData["Loi4"] = "Nhập mật khẩu lại";
             }
-          else if (String.IsNullOrEmpty(email))
+            else if (String.IsNullOrEmpty(email))
             {
                 ViewData["Loi5"] = "Nhập Email";
-             }
+            }
             else if (String.IsNullOrEmpty(diachi))
             {
                 ViewData["Loi6"] = "Nhập Địa chỉ";
@@ -87,7 +88,7 @@ namespace WEBBG.Controllers
             {
                 ViewData["Loi1"] = "Nhập tên đăng nhập";
             }
-           else if (String.IsNullOrEmpty(matkhau))
+            else if (String.IsNullOrEmpty(matkhau))
             {
                 ViewData["Loi2"] = "Nhập mật khẩu";
             }
@@ -100,7 +101,8 @@ namespace WEBBG.Controllers
                     //ViewBag.Thongbao = "ĐĂNG NHẬP THÀNH CÔNG";
                     Session["TAIKHOAN"] = kh;
 
-                    return RedirectToAction("Index","Site");
+                    return RedirectToAction("Index", "Site");
+
 
                 }
                 else
@@ -109,5 +111,6 @@ namespace WEBBG.Controllers
             return View();
         }
 
-        }
+
     }
+}

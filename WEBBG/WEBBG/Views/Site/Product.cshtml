@@ -16,17 +16,17 @@
         </div>
         <div class="col-md-8">
             <h3 class="text-center my-3">TẤT CẢ SẢN PHẨM</h3>
-            <div class="row">
+            <div class="row ">
                 @foreach (var tatcasanpham in Model)
                 {
-                    <div class=" col-md-4">
+                    <div class=" col-md-4 my-2">
                         <div class="card" style="width: 100%;">
                             <img src="~/Public/img/@tatcasanpham.ANHBIA" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="@Url.Action("Details","Site", new { id =tatcasanpham.MASP})" style="text-decoration:none">
-                                    <h5 class="card-title">@tatcasanpham.TENSP</h5>
+                                    <h5 class="card-title" style="font-size:17px;">@tatcasanpham.TENSP</h5>
                                 </a>
-                                <h5>Giá Bán: @tatcasanpham.GIABAN</h5>
+                                <h5 style="font-size:15px;">Giá Bán: @tatcasanpham.GIABAN</h5>
                                 <a href="@Url.Action("ThemGioHang","GioHang", new { @iMASP =tatcasanpham.MASP, @strURL = Request.Url.ToString()})" class="btn btn-primary">Đặt mua</a>
                             </div>
                         </div>

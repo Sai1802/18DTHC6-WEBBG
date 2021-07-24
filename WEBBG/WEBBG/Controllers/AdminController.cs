@@ -17,8 +17,101 @@ namespace WEBBG.Controllers
         // GET: Admin
         public ActionResult Index()
         {
-            return View();
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+                return View(db.KHACHHANGs.ToList());
+            
         }
+        public ActionResult Chitiet(int id)
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+            {
+                var kh = from khach in db.KHACHHANGs where khach.MAKH == id select khach;
+                return View(kh.SingleOrDefault());
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Tao()
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+                return View();
+
+        }
+
+        [HttpPost]
+        public ActionResult Tao(KHACHHANG kh)
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+            {
+                db.KHACHHANGs.InsertOnSubmit(kh);
+                db.SubmitChanges();
+                return RedirectToAction("Index", "Admin");
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Xoa(int id)
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+
+            {
+                var kh = from lsp in db.KHACHHANGs where lsp.MAKH == id select lsp;
+                return View(kh.SingleOrDefault());
+            }
+        }
+
+        [HttpPost, ActionName("Xoa")]
+        public ActionResult Xacnhan(int id)
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+            {
+                KHACHHANG kh = db.KHACHHANGs.SingleOrDefault(n => n.MAKH == id);
+                db.KHACHHANGs.DeleteOnSubmit(kh);
+                db.SubmitChanges();
+                return RedirectToAction("Index", "Admin");
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Sua(int id)
+        {
+            if (Session["Taikhoanadmin"] == null)
+                return RedirectToAction("Login", "Admin");
+            else
+            {
+                var lsp = from kh in db.KHACHHANGs where kh.MAKH == id select kh;
+                return View(lsp.SingleOrDefault());
+            }
+        }
+
+        [HttpPost, ActionName("Sua")]
+
+        public ActionResult Update(int id)
+        {
+            KHACHHANG lsp = db.KHACHHANGs.Where(n => n.MAKH == id).SingleOrDefault();
+            UpdateModel(lsp);
+            db.SubmitChanges();
+            return RedirectToAction("Index", "Admin");
+
+        }
+
+    
+
+
+        //login
+
         [HttpGet]
         public ActionResult Login()
         {

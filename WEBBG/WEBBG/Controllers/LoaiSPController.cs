@@ -21,6 +21,9 @@ namespace WEBBG.Controllers
                 return View(db.LOAISPs.ToList());
         }
 
+
+
+
         public ActionResult Details(int id)
         {
             if (Session["Taikhoanadmin"] == null)
@@ -51,7 +54,7 @@ namespace WEBBG.Controllers
             {
                 db.LOAISPs.InsertOnSubmit(loaisp);
                 db.SubmitChanges();
-                return RedirectToAction("Index", "NhaCC");
+                return RedirectToAction("Index", "LoaiSP");
             }
         }
 
@@ -101,7 +104,7 @@ namespace WEBBG.Controllers
             LOAISP lsp = db.LOAISPs.Where(n => n.MALOAI == id).SingleOrDefault();
             UpdateModel(lsp);
             db.SubmitChanges();
-            return RedirectToAction("Index", "LoaiSp");
+            return RedirectToAction("Index", "LoaiSP");
 
         }
 

@@ -16,7 +16,7 @@
     <section class="header">
         <div class="row">
             <div class="col-md-3">
-                <img src="~/Public/img/logo3.jpg" style="height:100px;" />
+               <a href="~/site"> <img src="~/Public/img/logo3.jpg" style="height:100px;" /></a>
             </div>
             <div class="col-md-4 mt-md-3 text-center">
                 @using (Html.BeginForm("KQTimKiem", "TimKiem"))
@@ -32,15 +32,16 @@
                 }
             </div>
 
-            <div class="col-md-5 mt-md-3" style="padding-left:130px;">
+            <div class="col-md-5 mt-md-3" style="padding-left:100px;">
                 <div class="user ">
                     <ul>
                         <li class="dropdown">
                             <i class="fas fa-user" style="font-size:20px"></i>  <a class="dropbtn"
                                                                                    style="color:black;font-weight:bold;
                             text-decoration:none; padding-top:20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-                                TÀI KHOẢN
+                                TÀI KHOẢN  |
                             </a>
+                           
                             <div class="dropdown-content">
                                 <a href="/dangnhap">Đăng nhập</a>
                                 <a href="/dangky">Đăng ký</a>
@@ -102,7 +103,7 @@
     <section class="content">
         @RenderBody()
     </section>
-    <script type="text/javascript">
+    @*<script type="text/javascript">
         function hide_float_right() {
             var content = document.getElementById('float_content_right');
             var hide = document.getElementById('hide_float_right');
@@ -111,7 +112,7 @@
                 content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Xem quảng cáo...</a>';
             }
         }
-    </script>
+    </script>*@
     
     <section class="footer">
         <div class="container">
@@ -119,39 +120,46 @@
                 <div class="col-md-3">
                     <h2>DANH MỤC</h2>
                     <ul>
-                        <li><a href=" #">Giày Nike</a></li>
-                        <li><a href="#">Giày Adidas</a></li>
-                        <li><a href="#">Giày Vans</a></li>
-                        <li><a href="#">Giày Puma</a></li>
+                        <li><a href="/Site/SPTheoLoai/1">Giày Nike</a></li>
+                        <li><a href="/Site/SPTheoLoai/4">Giày Adidas</a></li>
+                        <li><a href="/Site/SPTheoLoai/2">Giày Vans</a></li>
+                        <li><a href="/Site/SPTheoLoai/3">Giày Reebok</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h2>HỖ TRỢ</h2>
                     <ul>
-                        <li><a href=" #">Liên Hệ: 06563434</a></li>
-                        <li><a href="#">Email: team12@gmail.com</a></li>
-                        <li><a href="#">Địa chỉ: Quận 9,TPHCM</a></li>
-                        <li><a href="#">Giày</a></li>
+                        <li>SĐT: 06563434</li>
+                        <li>Email: team12@gmail.com</li>
+                        <li>Địa chỉ: Quận 9,TPHCM</li>
+                        <li><a href="~/site">Trang chủ</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <h2>HƯỚNG DẪN</h2>
-                    <ul>
-                        <li><a href=" #">Giày Nike</a></li>
-                        <li><a href="#">Giày Adidas</a></li>
-                        <li><a href="#">Giày Vans</a></li>
-                        <li><a href="#">Giày Puma</a></li>
-                    </ul>
-                </div>
+                @*<div class="col-md-3">
+            <h2>HƯỚNG DẪN</h2>
+            <ul>
+                <li><a href="~/lienhe">Liên hệ</a></li>
+                <li><a href="#">Giày Adidas</a></li>
+                <li><a href="#">Giày Vans</a></li>
+                <li><a href="#">Giày Puma</a></li>
+            </ul>
+        </div>*@
                 <div class="col-md-3">
                     <h2>CHÍNH SÁCH</h2>
                     <ul>
-                        <li><a href=" #">Đổi Trả</a></li>
-                        <li><a href="#">Giao Hàng Tận Nới</a></li>
-                        <li><a href="#">Hỗ Trợ 24/7</a></li>
-                        <li><a href="#">Giày</a></li>
+                        <li>Đổi Trả</li>
+                        <li>Giao Hàng Tận Nơi</li>
+                        <li>Hỗ Trợ 24/7</li>
+                        <li>Nhiệt tình</li>
                     </ul>
                 </div>
+                <div class="col-md-3">
+                    <h2>NHÀ TÀI TRỢ CHÍNH</h2>
+                    
+                        <a href="https://www.nike.com/vn/"> <img src="~/Public/img/Logo_NIKE.svg.png" style="height:50px;" /></a>
+                       
+                </div>
+                
 
             </div>
         </div>
@@ -168,15 +176,17 @@
 <style>
     .footer li a{
         text-decoration:none;
+        color:black;
     }
     .footer li a:hover{
-        color:burlywood;
+        color:#3932e6;
     }
     .container-fluid li {
         font:40px;
         font-weight:bold;
         font-family:Arial;
-        padding-left:60px;
+        padding-left:38px;
+
     }
     
     .navbar-light .navbar-nav .nav-link:hover{

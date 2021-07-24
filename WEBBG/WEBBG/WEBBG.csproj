@@ -135,6 +135,8 @@
     <Content Include="Public\img\gt3.jpg" />
     <Content Include="Public\img\logo.jpg" />
     <Content Include="Public\img\logo3.jpg" />
+    <Content Include="Public\img\Logo_NIKE.svg.png" />
+    <Content Include="Public\img\loupe.png" />
     <Content Include="Public\img\nike-banner.jpg" />
     <Content Include="Public\img\sp10.jpg" />
     <Content Include="Public\img\sp11.jpg" />
@@ -471,7 +473,6 @@
     <Content Include="Views\TimKiem\KQTimKiem.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Admin\Login.cshtml" />
-    <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\NhaCC\Index.cshtml" />
     <Content Include="Views\NhaCC\Create.cshtml" />
     <Content Include="Views\NhaCC\Delete.cshtml" />
@@ -499,8 +500,13 @@
     <Content Include="Views\QLLH\Details.cshtml" />
     <Content Include="Views\QLLH\Create.cshtml" />
     <Content Include="Views\QLLH\Delete.cshtml" />
-    <Content Include="Views\QLLH\Edit.cshtml" />
     <Content Include="Views\ThanhToanMOMO\ConfirmPaymentClient.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Chitiet.cshtml" />
+    <Content Include="Views\Admin\Tao.cshtml" />
+    <Content Include="Views\Admin\Xoa.cshtml" />
+    <Content Include="Views\Admin\Sua.cshtml" />
+    <Content Include="Views\QLLH\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

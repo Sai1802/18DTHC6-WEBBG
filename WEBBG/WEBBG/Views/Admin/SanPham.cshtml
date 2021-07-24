@@ -66,7 +66,7 @@
                 @Html.DisplayFor(modelItem => item.GIABAN)
             </td>
             <td>
-                <img src="~/Public/img/@item.ANHBIA" style="width:80px;height:80px;" />
+                <img src="~/Public/img/@item.ANHBIA" style="width:70px;height:70px;" />
             </td>
             <td>
                 @Truncate(item.MOTA,100)
@@ -86,7 +86,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.NCC.TENNCC)
             </td>
-            <td>
+            <td style="width:200px;">
                 @Html.ActionLink("Sửa", "SuaSP", new { id = item.MASP }) |
                 @Html.ActionLink("Chi Tiết", "ChitietSP", new { id = item.MASP }) |
                 @Html.ActionLink("Xóa", "XoaSP", new { id = item.MASP })
