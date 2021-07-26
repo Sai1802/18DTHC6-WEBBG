@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WEBBG" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-3RC60MH\SQLEXPRESS;Initial Catalog=WEBBG;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WEBBGConnectionString" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADONs">
-    <Type Name="CHITIETHOADON">
-      <Column Name="MADH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="MASP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="SL" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="DONGIA" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
-      <Association Name="DONDATHANG_CHITIETHOADON" Member="DONDATHANG" ThisKey="MADH" OtherKey="MADH" Type="DONDATHANG" IsForeignKey="true" />
-      <Association Name="SANPHAM_CHITIETHOADON" Member="SANPHAM" ThisKey="MASP" OtherKey="MASP" Type="SANPHAM" IsForeignKey="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.DONDATHANG" Member="DONDATHANGs">
     <Type Name="DONDATHANG">
       <Column Name="MADH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -88,6 +78,19 @@
       <Column Name="UserAdmin" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="PassAdmin" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="HoTen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+<<<<<<< HEAD
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADONs">
+    <Type Name="CHITIETHOADON">
+      <Column Name="MADH" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MASP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONGIA" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="DONDATHANG_CHITIETHOADON" Member="DONDATHANG" ThisKey="MADH" OtherKey="MADH" Type="DONDATHANG" IsForeignKey="true" />
+      <Association Name="SANPHAM_CHITIETHOADON" Member="SANPHAM" ThisKey="MASP" OtherKey="MASP" Type="SANPHAM" IsForeignKey="true" />
+=======
+>>>>>>> b9419e836e0853b1070556de7cbe541dfe2eb541
     </Type>
   </Table>
 </Database>

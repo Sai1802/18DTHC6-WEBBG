@@ -84,6 +84,9 @@ namespace WEBBG.Controllers
             }
         }
 
+
+
+        
         [HttpGet]
         public ActionResult Sua(int id)
         {
@@ -107,7 +110,7 @@ namespace WEBBG.Controllers
 
         }
 
-    
+
 
 
         //login
@@ -272,7 +275,7 @@ namespace WEBBG.Controllers
                 return RedirectToAction("SanPham");
             }
         }
-
+        ///
         //[HttpPost]
         //[ValidateInput(false)]
         //public ActionResult SuaSP(SANPHAM sp, HttpPostedFileBase fileupload)

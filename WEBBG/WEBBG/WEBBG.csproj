@@ -129,6 +129,10 @@
     <Content Include="Public\img\banner.jpg" />
     <Content Include="Public\img\banner1.jpg" />
     <Content Include="Public\img\banner2.jpg" />
+    <Content Include="Public\img\dt1.jpg" />
+    <Content Include="Public\img\dt2.jpg" />
+    <Content Include="Public\img\dt3.jpg" />
+    <Content Include="Public\img\dt4.jpg" />
     <Content Include="Public\img\f3.jpg" />
     <Content Include="Public\img\gt1.jpg" />
     <Content Include="Public\img\gt2.jpg" />
@@ -408,6 +412,7 @@
     <Compile Include="Controllers\LienHeController.cs" />
     <Compile Include="Controllers\LoaiSPController.cs" />
     <Compile Include="Controllers\NhaCCController.cs" />
+    <Compile Include="Controllers\QLDHController.cs" />
     <Compile Include="Controllers\QLLHController.cs" />
     <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="Controllers\ThanhToanMOMOController.cs" />
@@ -507,6 +512,11 @@
     <Content Include="Views\Admin\Xoa.cshtml" />
     <Content Include="Views\Admin\Sua.cshtml" />
     <Content Include="Views\QLLH\Edit.cshtml" />
+    <Content Include="Views\QLDH\Details.cshtml" />
+    <Content Include="Views\QLDH\Index.cshtml" />
+    <Content Include="Views\QLDH\Create.cshtml" />
+    <Content Include="Views\QLDH\Delete.cshtml" />
+    <Content Include="Views\QLDH\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
